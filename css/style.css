@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+/*@include font-face("Gilroy",
+"../fonts/Gilroy-ExtraBold",
+"",
+"",
+"otf");*/
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #0032FF;
+  border-color: #0032FF;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+/***** login page styles *****/
+.TSO-login {
+  min-height: 100vh;
+  background: url("../images/login/login-bg2.jpg");
+  background-position: right 0 center;
+  background-size: cover;
+  padding-top: 62px;
+  padding-bottom: 56px;
+}
+
+.TSO-login .container-fluid {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 80px;
+  padding-right: 30px;
+  position: relative;
+  padding-bottom: 108px;
+}
+
+.TSO-login .TSO-logo img {
+  max-width: 194px;
+}
+
+.TSO-login .login-block {
+  width: 100%;
+  max-width: 427px;
+  background: #fff;
+  box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 30px 36px;
+}
+
+.TSO-login .login-block h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 26px;
+}
+
+.TSO-login .login-block .form-label {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.TSO-login .login-block .form-control {
+  height: 53px;
+  background: #F2F5FB;
+  box-shadow: inset -4px -4px 8px #FFFFFF, inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  border: 0;
+}
+
+.TSO-login .login-block form .d-flex {
+  padding: 0 20px 0 27px;
+  margin-bottom: 30px;
+}
+
+.TSO-login .login-block form .d-flex a {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.TSO-login .login-block form .btn {
+  width: 100%;
+  margin-bottom: 43px;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25), -8px -8px 8px #FFFFFF;
+  border-radius: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TSO-login .TSO-Powered {
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+}
+
+/**** media queries ****/
+@media (max-width: 1024.98px) {
+  .TSO-login {
+    background-position: center;
+  }
+  .TSO-login .TSO-logo {
+    margin-bottom: 78px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .TSO-login {
+    background-position: right;
+    padding-top: 30px;
+  }
+  .TSO-login .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    padding-bottom: 145px;
+  }
+  .TSO-login .TSO-logo {
+    margin-bottom: 93px;
+  }
+  .TSO-login .TSO-logo img {
+    max-width: 100px;
+  }
+  .TSO-login .TSO-Powered {
+    right: 33px;
+  }
+  .TSO-login .TSO-Powered img {
+    max-width: 98px;
+  }
+  .TSO-login .login-block {
+    margin: 0 auto;
+    padding-bottom: 53px;
+  }
+  .TSO-login .login-block h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .TSO-login .login-block .form-label {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 16px;
+  }
+  .TSO-login .login-block .form-control {
+    height: 45px;
+  }
+  .TSO-login .login-block form .btn {
+    height: 42px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .TSO-login .login-block form .d-flex {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .TSO-login .login-block form .d-flex a {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .TSO-login .login-block {
+    padding: 18px 20px 36px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .TSO-login .login-block .form-label {
+    font-size: 15px;
+    margin-bottom: 6px;
+    padding-left: 5px;
+  }
+  .TSO-login .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

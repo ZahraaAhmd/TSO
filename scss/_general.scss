@@ -1,0 +1,15 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    &-primary {
+        background-color: $blue;
+        border-color: $blue;
+        &:hover {
+            background-color: #000;
+            border-color: #000;
+        }
+    }
+}
